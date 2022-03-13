@@ -210,6 +210,7 @@ namespace SagaEvent.Controllers
             sqlconn.Close();
 
             return RedirectToAction("ViewOrders", "Admin");
+            
 
         }
 
